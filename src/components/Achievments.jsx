@@ -9,7 +9,7 @@ import IIT from "../assets/IIT_Bombay.jpg";
 import Google_Cloud from "../assets/Google_Cloud.jpg";
 import IIT_1 from "../assets/IIT_1.jpg";
 import IIT_2 from "../assets/IIT_2.jpg";
-import IIT_3 from "../assets/IIT_3.jpg";
+import IIT_3 from "../assets/iit_3.jpg";
 import IIIT_1 from "../assets/IIIT_Gwalior.jpg";
 import IIIT_2 from "../assets/IIIT_Gwalior_1.jpg";
 import GSC_1 from "../assets/GSC_1.jpg";
