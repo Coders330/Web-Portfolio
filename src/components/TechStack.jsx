@@ -54,12 +54,12 @@ const TechStack = () => {
         {/* MAIN GRID */}
         <div
           className="relative rounded-3xl p-6 md:p-10 bg-white/5 backdrop-blur-xl 
-        border border-white/10 grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-4"
+        border border-white/10 grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-6"
         >
           {/* LEFT SYSTEM */}
           {/* <div className="grid grid-cols-1 md:grid-cols-1 gap-6 md:gap-10"> */}
           {/* CORE SYSTEM WRAPPER */}
-          <div className="relative col-span-1 md:col-span-2 p-13">
+          <div className="relative col-span-1 md:col-span-2 p-4 md:p-8 pt-16 md:pt-8">
             {/* OUTER GLOW BORDER */}
             <div
               className="absolute inset-0 rounded-3xl 
@@ -78,7 +78,7 @@ const TechStack = () => {
                 <h3 className="text-2xl font-semibold text-blue-300 tracking-wide">
                   CORE SYSTEM
                 </h3>
-                <p className="text-1.5xl text-gray-400">
+                <p className="text-sm md:text-base text-gray-400">
                   Application Logic & Data Flow
                 </p>
               </div>
@@ -130,7 +130,7 @@ const TechStack = () => {
               <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-purple-400/40 to-transparent mb-4"></div>
 
               {/* STACK LIST */}
-              <div className="flex flex-row items-center justify-center gap-3 text-sm">
+              <div className="flex flex-wrap items-center justify-center gap-3 text-sm">
                 <div className="flex items-center gap-2 text-cyan-400">
                   <FaReact className="text-lg" />
                   <span className="text-gray-300">React</span>
@@ -342,7 +342,7 @@ const TechStack = () => {
               </p>
 
               {/* TECHNOLOGIES */}
-              <div className="flex flex-row gap-3 text-sm text-gray-300 justify-center">
+              <div className="flex flex-wrap gap-3 text-sm text-gray-300 justify-center">
                 <div className="flex items-center justify-center gap-2">
                   <SiMongodb className="text-green-400 text-lg" />
                   <span>MongoDB</span>
